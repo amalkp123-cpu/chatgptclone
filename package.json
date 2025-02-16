@@ -1,5 +1,5 @@
 {
-  "homepage": "https://amalkp123-cpu.github.io/chatgptclone/",
+  "homepage": "https://amalkp123-cpu.github.io/chatgptclone",
   "name": "chat",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +8,7 @@
     
     "dev": "vite",
     "predeploy":"npm run build",
-    "deploy":"github-pages -d build",
+    "deploy":"gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
